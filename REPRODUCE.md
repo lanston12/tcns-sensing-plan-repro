@@ -82,5 +82,6 @@ The repository root contains the extracted minimal package. Run `python reproduc
 from this directory after installing `requirements.txt`. The bundled
 `TCNS_minimal_reproducibility.zip` contains the same manifested inputs and can also
 be downloaded and extracted to run the checks. Git metadata and generated outputs
-are not part of that ZIP. The initial public version retains all 720 prior and 108
+are not part of that ZIP. `.gitattributes` disables automatic line-ending
+conversion so the integrity checks also work after cloning on Windows. The initial public version retains all 720 prior and 108
 targeted frozen run summaries and all unfavorable matched effects.

@@ -1,0 +1,6 @@
+/.venv/
+/results/
+/figures/
+__pycache__/
+*.py[cod]
+*.log

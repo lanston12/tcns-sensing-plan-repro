@@ -1,0 +1,7 @@
+paper_item,packaged_input,reproduced_output
+Table I / Fig.2,scripts/tcns_structural_checks.py,results/tcns_structural_checks.json
+Table II / Fig.4,publication_track/installation_focus/results/radio_results.csv,results/tcns_primary_means.csv
+Table III,publication_track/installation_focus/results/radio_results.csv,results/table_III_timing.csv
+Table IV,publication_track/installation_focus/results/radio_results.csv,results/tcns_processing_pairs.csv
+Fig.3,publication_track/installation_focus/results/existing_summary.csv; publication_track/installation_focus/results/existing_ticks.csv,results/tcns_mechanism_prevalence.csv
+Fig.4a,publication_track/installation_focus/runs/*/selection.csv,results/tcns_local_certificates.csv

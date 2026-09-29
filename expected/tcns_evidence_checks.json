@@ -1,0 +1,17 @@
+{
+  "archived_runs": 720,
+  "targeted_runs": 108,
+  "primary_runs": 96,
+  "matched_pairs": 24,
+  "exact_equal_pairs": 20,
+  "local_decisions": 1920,
+  "strict_risk_reductions": 22,
+  "positive_host_risk": 148,
+  "max_nominal_gap": 0.00048529018310453087,
+  "max_risk_violation": 0.0,
+  "broadcasts": 45070,
+  "ticks": 144000,
+  "harmful_latest_two_ticks": 635,
+  "harmful_outside_ticks": 42220,
+  "total_pssch": 12110750
+}

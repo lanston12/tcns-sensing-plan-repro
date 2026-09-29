@@ -1,0 +1,17 @@
+﻿paper_item,claim_or_result,exact_input_files,derived_evidence,limitation
+Fig.1,Q1-Q3 framework,TCNS_submission/fig1.png; TCNS_submission/fig1_framework.tex,causal information contract and applicability,"Author artwork with LaTeX corrections, not a performance result"
+Theorem1/Proposition1,cycle loss and correlated moments,structure.tex; scripts/tcns_structural_checks.py,results/tcns_structural_checks.json,Scalar homogeneous one-to-one; fixed context
+TableI,strict non-tie rational witness,publication_track/installation_focus/provided/check_installation_extension.py,results/tcns_structural_checks.json,Constructed existence example
+Propositions2-3/Fig.2,heterogeneous factors and hypergraph,structure.tex; scripts/tcns_structural_checks.py,results/tcns_structural_checks.json,Factorized reachable set needed for exact component maximum
+Proposition4,local finite certificate,main.tex; publication_track/installation_focus/mechanism.py,results/tcns_method_checks.json,Same-context comparison; no trajectory/resource bound
+Fig.3a,renewal/strict/other update fractions,publication_track/installation_focus/results/existing_summary.csv,results/tcns_mechanism_prevalence.csv,All 18 cells; no-feedback has no broadcast fraction
+Fig.3b,latest-two versus outside harmful duration,publication_track/installation_focus/results/existing_summary.csv; publication_track/installation_focus/results/existing_ticks.csv,results/tcns_mechanism_prevalence.csv; results/tcns_expiration_crosstab.csv,Cost includes offered transmission price; 0.1s grid
+Fig.3c,expired/default exposure,publication_track/installation_focus/results/existing_summary.csv,results/tcns_mechanism_prevalence.csv,"Source-seconds, includes initialized fallback; overlaps other diagnostics"
+Fig.4a,all local certificate decisions,publication_track/installation_focus/runs/<tag>/selection.csv,results/tcns_local_certificates.csv,"1920 primary decisions, 22 strict reductions"
+Fig.4bc,all matched MSE/resource differences,publication_track/installation_focus/results/radio_results.csv,results/tcns_all_24_pairs.csv,All 24 pairs; four independent process instances
+TableII,all primary policy means,publication_track/installation_focus/results/radio_results.csv,results/tcns_primary_means.csv,96 primary runs; 40ms processing only
+TableIII,within-run P95 computation medians,publication_track/installation_focus/results/radio_results.csv; publication_track/installation_focus/results/decision_timing.csv,publication_track/installation_focus/results/summary.json,Excludes full callback/filter; no hardware real-time guarantee
+TableIV,1ms sensitivity and matched 40ms runs,publication_track/installation_focus/results/radio_results.csv,results/tcns_processing_pairs.csv,"All eight sensitivity runs; two process instances, seed1"
+SectionVII-A,Jensen approximation diagnostics,publication_track/installation_focus/results/existing_jensen.csv; publication_track/installation_focus/results/full_book_jensen_summary.json,publication_track/installation_focus/results/summary.json,"Declared independent service model, not calibrated radio truth"
+SectionVII-D,staged counts and MSE/occupation,publication_track/installation_focus/runs/<tag>/protocol_events.csv; publication_track/installation_focus/results/radio_results.csv,publication_track/installation_focus/results/summary.json,Four staged runs; no atomicity guarantee
+SectionVII-D,total PSSCH occupation,publication_track/installation_focus/results/radio_results.csv,results/tcns_evidence_checks.json,12110750 RB-slots; exclusive categories only

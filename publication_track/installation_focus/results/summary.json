@@ -1,0 +1,381 @@
+{
+  "primary_runs": 96,
+  "total_runs": 108,
+  "metrics": {
+    "reliable|GRANT_KEEP": {
+      "mse": 0.006232065434159829,
+      "pssch_tx_prb_slots": 58312.5,
+      "feedback_packets": 40.0,
+      "data_packets": 193.25,
+      "feedback_pssch": 10000.0,
+      "data_pssch": 48312.5,
+      "mixed_pssch": 0.0,
+      "background_pssch": 0.0,
+      "unattributed_pssch": 0.0,
+      "shared_bundle_pssch": 0.0,
+      "harmful_seconds": 0.0,
+      "harmful_within_latest_two_seconds": 0.0,
+      "mean_signed_vs_new": 0.0,
+      "mean_excess_both": -0.002589406976839575,
+      "mean_positive_excess": 0.0,
+      "expired_source_seconds": 0.30000000000000004,
+      "median_run_p95_ms": 0.20351250000194543,
+      "compute_exceeds_40ms": 0
+    },
+    "reliable|COV_EVENT": {
+      "mse": 0.0060188418650054375,
+      "pssch_tx_prb_slots": 59062.5,
+      "feedback_packets": 54.25,
+      "data_packets": 182.0,
+      "feedback_pssch": 13562.5,
+      "data_pssch": 45500.0,
+      "mixed_pssch": 0.0,
+      "background_pssch": 0.0,
+      "unattributed_pssch": 0.0,
+      "shared_bundle_pssch": 0.0,
+      "harmful_seconds": 0.0,
+      "harmful_within_latest_two_seconds": 0.0,
+      "mean_signed_vs_new": 0.0,
+      "mean_excess_both": -0.001685500380435712,
+      "mean_positive_excess": 0.0,
+      "expired_source_seconds": 0.30000000000000004,
+      "median_run_p95_ms": 1.1152049999996185,
+      "compute_exceeds_40ms": 0
+    },
+    "reliable|OLD_RENEWAL": {
+      "mse": 0.008545056623006475,
+      "pssch_tx_prb_slots": 51562.5,
+      "feedback_packets": 100.0,
+      "data_packets": 106.25,
+      "feedback_pssch": 25000.0,
+      "data_pssch": 26562.5,
+      "mixed_pssch": 0.0,
+      "background_pssch": 0.0,
+      "unattributed_pssch": 0.0,
+      "shared_bundle_pssch": 0.0,
+      "harmful_seconds": 0.025,
+      "harmful_within_latest_two_seconds": 0.0,
+      "mean_signed_vs_new": 6.513030932745632e-06,
+      "mean_excess_both": -0.0009067403041548088,
+      "mean_positive_excess": 3.092957021750449e-06,
+      "expired_source_seconds": 0.37500000000000006,
+      "median_run_p95_ms": 25.508776475001575,
+      "compute_exceeds_40ms": 9
+    },
+    "reliable|COMPAT": {
+      "mse": 0.006231720142443834,
+      "pssch_tx_prb_slots": 58937.5,
+      "feedback_packets": 40.0,
+      "data_packets": 195.75,
+      "feedback_pssch": 10000.0,
+      "data_pssch": 48937.5,
+      "mixed_pssch": 0.0,
+      "background_pssch": 0.0,
+      "unattributed_pssch": 0.0,
+      "shared_bundle_pssch": 0.0,
+      "harmful_seconds": 0.0,
+      "harmful_within_latest_two_seconds": 0.0,
+      "mean_signed_vs_new": 0.0,
+      "mean_excess_both": -0.002513521131411775,
+      "mean_positive_excess": 0.0,
+      "expired_source_seconds": 0.30000000000000004,
+      "median_run_p95_ms": 0.36724950000017736,
+      "compute_exceeds_40ms": 0
+    },
+    "partial|GRANT_KEEP": {
+      "mse": 0.006807140532320346,
+      "pssch_tx_prb_slots": 85593.75,
+      "feedback_packets": 100.0,
+      "data_packets": 242.375,
+      "feedback_pssch": 25000.0,
+      "data_pssch": 60593.75,
+      "mixed_pssch": 0.0,
+      "background_pssch": 0.0,
+      "unattributed_pssch": 0.0,
+      "shared_bundle_pssch": 0.0,
+      "harmful_seconds": 4.1625000000000005,
+      "harmful_within_latest_two_seconds": 0.0,
+      "mean_signed_vs_new": 0.0013568445204182687,
+      "mean_excess_both": -0.00013698688911308298,
+      "mean_positive_excess": 0.001196240977471195,
+      "expired_source_seconds": 7.125,
+      "median_run_p95_ms": 0.253335000000554,
+      "compute_exceeds_40ms": 0
+    },
+    "partial|COV_EVENT": {
+      "mse": 0.006937709288351765,
+      "pssch_tx_prb_slots": 63718.75,
+      "feedback_packets": 53.875,
+      "data_packets": 201.0,
+      "feedback_pssch": 13468.75,
+      "data_pssch": 50250.0,
+      "mixed_pssch": 0.0,
+      "background_pssch": 0.0,
+      "unattributed_pssch": 0.0,
+      "shared_bundle_pssch": 0.0,
+      "harmful_seconds": 1.8000000000000003,
+      "harmful_within_latest_two_seconds": 0.0,
+      "mean_signed_vs_new": 0.0007955555200087592,
+      "mean_excess_both": -0.001328782353391293,
+      "mean_positive_excess": 0.0004815238033288532,
+      "expired_source_seconds": 3.0250000000000004,
+      "median_run_p95_ms": 0.8891074999990418,
+      "compute_exceeds_40ms": 0
+    },
+    "partial|OLD_RENEWAL": {
+      "mse": 0.008872733280905952,
+      "pssch_tx_prb_slots": 54687.5,
+      "feedback_packets": 100.0,
+      "data_packets": 118.75,
+      "feedback_pssch": 25000.0,
+      "data_pssch": 29687.5,
+      "mixed_pssch": 0.0,
+      "background_pssch": 0.0,
+      "unattributed_pssch": 0.0,
+      "shared_bundle_pssch": 0.0,
+      "harmful_seconds": 0.9875,
+      "harmful_within_latest_two_seconds": 0.0,
+      "mean_signed_vs_new": 0.0004845791694447463,
+      "mean_excess_both": -0.0005358866587141912,
+      "mean_positive_excess": 0.000311434531267501,
+      "expired_source_seconds": 1.4500000000000002,
+      "median_run_p95_ms": 27.08704999999938,
+      "compute_exceeds_40ms": 0
+    },
+    "partial|COMPAT": {
+      "mse": 0.00685145973251923,
+      "pssch_tx_prb_slots": 86312.5,
+      "feedback_packets": 100.0,
+      "data_packets": 245.25,
+      "feedback_pssch": 25000.0,
+      "data_pssch": 61312.5,
+      "mixed_pssch": 0.0,
+      "background_pssch": 0.0,
+      "unattributed_pssch": 0.0,
+      "shared_bundle_pssch": 0.0,
+      "harmful_seconds": 4.175000000000001,
+      "harmful_within_latest_two_seconds": 0.0,
+      "mean_signed_vs_new": 0.001378593640763877,
+      "mean_excess_both": -5.3556001549173835e-05,
+      "mean_positive_excess": 0.0012103860043003142,
+      "expired_source_seconds": 7.175000000000001,
+      "median_run_p95_ms": 0.4904299999994418,
+      "compute_exceeds_40ms": 0
+    },
+    "contention|GRANT_KEEP": {
+      "mse": 0.013509488344225397,
+      "pssch_tx_prb_slots": 201656.25,
+      "feedback_packets": 100.0,
+      "data_packets": 470.375,
+      "feedback_pssch": 875.0,
+      "data_pssch": 1062.5,
+      "mixed_pssch": 123718.75,
+      "background_pssch": 76000.0,
+      "unattributed_pssch": 0.0,
+      "shared_bundle_pssch": 155593.75,
+      "harmful_seconds": 14.037500000000001,
+      "harmful_within_latest_two_seconds": 0.0,
+      "mean_signed_vs_new": 0.007303807307679339,
+      "mean_excess_both": 0.005926349006910187,
+      "mean_positive_excess": 0.006680109353273134,
+      "expired_source_seconds": 39.97500000000001,
+      "median_run_p95_ms": 0.27710750000267115,
+      "compute_exceeds_40ms": 0
+    },
+    "contention|COV_EVENT": {
+      "mse": 0.013379858254375416,
+      "pssch_tx_prb_slots": 203625.0,
+      "feedback_packets": 100.0,
+      "data_packets": 461.0,
+      "feedback_pssch": 875.0,
+      "data_pssch": 1250.0,
+      "mixed_pssch": 121906.25,
+      "background_pssch": 79593.75,
+      "unattributed_pssch": 0.0,
+      "shared_bundle_pssch": 154531.25,
+      "harmful_seconds": 13.9375,
+      "harmful_within_latest_two_seconds": 0.0,
+      "mean_signed_vs_new": 0.007195263692128255,
+      "mean_excess_both": 0.005727407172929419,
+      "mean_positive_excess": 0.006476169840970977,
+      "expired_source_seconds": 38.6625,
+      "median_run_p95_ms": 1.0071525000000743,
+      "compute_exceeds_40ms": 0
+    },
+    "contention|OLD_RENEWAL": {
+      "mse": 0.013371945388523722,
+      "pssch_tx_prb_slots": 207625.0,
+      "feedback_packets": 100.0,
+      "data_packets": 277.875,
+      "feedback_pssch": 875.0,
+      "data_pssch": 781.25,
+      "mixed_pssch": 84250.0,
+      "background_pssch": 121718.75,
+      "unattributed_pssch": 0.0,
+      "shared_bundle_pssch": 120656.25,
+      "harmful_seconds": 8.5125,
+      "harmful_within_latest_two_seconds": 0.0,
+      "mean_signed_vs_new": 0.004049340500557246,
+      "mean_excess_both": 0.0029095011907642075,
+      "mean_positive_excess": 0.00354257389210397,
+      "expired_source_seconds": 17.825000000000003,
+      "median_run_p95_ms": 25.86058299999472,
+      "compute_exceeds_40ms": 0
+    },
+    "contention|COMPAT": {
+      "mse": 0.013509488344225397,
+      "pssch_tx_prb_slots": 201656.25,
+      "feedback_packets": 100.0,
+      "data_packets": 470.375,
+      "feedback_pssch": 875.0,
+      "data_pssch": 1062.5,
+      "mixed_pssch": 123718.75,
+      "background_pssch": 76000.0,
+      "unattributed_pssch": 0.0,
+      "shared_bundle_pssch": 155593.75,
+      "harmful_seconds": 14.037500000000001,
+      "harmful_within_latest_two_seconds": 0.0,
+      "mean_signed_vs_new": 0.007303798506841102,
+      "mean_excess_both": 0.0059313684885649726,
+      "mean_positive_excess": 0.00668512883492792,
+      "expired_source_seconds": 39.97500000000001,
+      "median_run_p95_ms": 0.47106249999906413,
+      "compute_exceeds_40ms": 0
+    }
+  },
+  "observed_frontier": {
+    "reliable": [
+      "GRANT_KEEP",
+      "COV_EVENT",
+      "OLD_RENEWAL",
+      "COMPAT"
+    ],
+    "partial": [
+      "GRANT_KEEP",
+      "COV_EVENT",
+      "OLD_RENEWAL"
+    ],
+    "contention": [
+      "GRANT_KEEP",
+      "COV_EVENT",
+      "OLD_RENEWAL",
+      "COMPAT"
+    ]
+  },
+  "paired": [
+    {
+      "environment": "reliable",
+      "instance": 1000,
+      "mse_delta": 0.0,
+      "pssch_delta": 0.0
+    },
+    {
+      "environment": "reliable",
+      "instance": 1001,
+      "mse_delta": 0.0,
+      "pssch_delta": 0.0
+    },
+    {
+      "environment": "reliable",
+      "instance": 1300,
+      "mse_delta": -1.381166863979183e-06,
+      "pssch_delta": 2500.0
+    },
+    {
+      "environment": "reliable",
+      "instance": 1301,
+      "mse_delta": 0.0,
+      "pssch_delta": 0.0
+    },
+    {
+      "environment": "partial",
+      "instance": 1000,
+      "mse_delta": 0.0,
+      "pssch_delta": 0.0
+    },
+    {
+      "environment": "partial",
+      "instance": 1001,
+      "mse_delta": 0.0,
+      "pssch_delta": 0.0
+    },
+    {
+      "environment": "partial",
+      "instance": 1300,
+      "mse_delta": 0.00017727680079553283,
+      "pssch_delta": 2875.0
+    },
+    {
+      "environment": "partial",
+      "instance": 1301,
+      "mse_delta": 0.0,
+      "pssch_delta": 0.0
+    },
+    {
+      "environment": "contention",
+      "instance": 1000,
+      "mse_delta": 0.0,
+      "pssch_delta": 0.0
+    },
+    {
+      "environment": "contention",
+      "instance": 1001,
+      "mse_delta": 0.0,
+      "pssch_delta": 0.0
+    },
+    {
+      "environment": "contention",
+      "instance": 1300,
+      "mse_delta": 0.0,
+      "pssch_delta": 0.0
+    },
+    {
+      "environment": "contention",
+      "instance": 1301,
+      "mse_delta": 0.0,
+      "pssch_delta": 0.0
+    }
+  ],
+  "selection": {
+    "count": 1920,
+    "changed": 22,
+    "positive_host_risk": 148,
+    "strict_risk_improvements": 22,
+    "max_nominal_gap": 0.00048529018310453087,
+    "max_risk_violation": 0.0
+  },
+  "jensen": {
+    "contexts": 782,
+    "changed": 33,
+    "max_gap": 0.04537671967668617,
+    "mean_gap": 0.0017432587187921314,
+    "mean_choice_regret": 0.0010169064858980535
+  },
+  "protocol_events": {
+    "prepared": 445,
+    "prepare_expired": 391,
+    "sender_timeout": 147,
+    "commit_sent": 16,
+    "committed": 44,
+    "activated": 44
+  },
+  "identical_primary_pairs": 20,
+  "total_pssch": 12110750,
+  "unattributed_pssch": 0,
+  "max_old_covariance_error": 1.1188966420050406e-16,
+  "max_new_covariance_error": 9.71445146547012e-17,
+  "full_book_jensen": {
+    "0.5": {
+      "contexts": 782,
+      "changed": 480,
+      "max_gap": 0.10952553672496956,
+      "mean_selected_regret": 0.0018226519176018248
+    },
+    "0.75": {
+      "contexts": 782,
+      "changed": 523,
+      "max_gap": 0.09848430488088349,
+      "mean_selected_regret": 0.002613669092191289
+    }
+  }
+}

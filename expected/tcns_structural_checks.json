@@ -1,0 +1,167 @@
+{
+  "status": "passed",
+  "seed": 20260927,
+  "scope": "Finite mathematical checks, not new network experiments or a novelty proof.",
+  "original_cycle_and_witness": {
+    "scope": "New mathematical illustration only; NOT NR-V2X data, NOT a validation sample, NOT a novelty verification",
+    "n_range": [
+      2,
+      6
+    ],
+    "prior_noise_pairs": [
+      [
+        0.01,
+        0.03
+      ],
+      [
+        0.05,
+        0.02
+      ],
+      [
+        0.1,
+        0.1
+      ],
+      [
+        0.2,
+        0.01
+      ]
+    ],
+    "permutations_checked": 872,
+    "mask_parameter_cases": 201440,
+    "max_formula_absolute_error": 5.551115123125783e-17,
+    "max_independent_expectation_absolute_error": 8.326672684688674e-17,
+    "max_worst_case_absolute_error": 6.938893903907228e-17,
+    "non_tie_example": {
+      "source_variances": [
+        [
+          "1/25",
+          "1/40"
+        ],
+        [
+          "1/250",
+          "1/100"
+        ]
+      ],
+      "prior_contexts": {
+        "A": [
+          "1/50",
+          "9/50"
+        ],
+        "B": [
+          "6/25",
+          "1/25"
+        ]
+      },
+      "costs": [
+        {
+          "context": "A",
+          "grant": [
+            1,
+            1
+          ],
+          "cost_rational": "119/650",
+          "cost": 0.18307692307692308
+        },
+        {
+          "context": "A",
+          "grant": [
+            1,
+            2
+          ],
+          "cost_rational": "13/570",
+          "cost": 0.02280701754385965
+        },
+        {
+          "context": "A",
+          "grant": [
+            2,
+            1
+          ],
+          "cost_rational": "311/12300",
+          "cost": 0.025284552845528455
+        },
+        {
+          "context": "A",
+          "grant": [
+            2,
+            2
+          ],
+          "cost_rational": "88/3275",
+          "cost": 0.026870229007633587
+        },
+        {
+          "context": "B",
+          "grant": [
+            1,
+            1
+          ],
+          "cost_rational": "73/1675",
+          "cost": 0.04358208955223881
+        },
+        {
+          "context": "B",
+          "grant": [
+            1,
+            2
+          ],
+          "cost_rational": "37/875",
+          "cost": 0.04228571428571429
+        },
+        {
+          "context": "B",
+          "grant": [
+            2,
+            1
+          ],
+          "cost_rational": "383/19825",
+          "cost": 0.01931904161412358
+        },
+        {
+          "context": "B",
+          "grant": [
+            2,
+            2
+          ],
+          "cost_rational": "203/825",
+          "cost": 0.24606060606060606
+        }
+      ]
+    }
+  },
+  "hypergraph": {
+    "exhaustive_plan_pairs": 819,
+    "random_plan_pairs": 600,
+    "all_plan_pairs": 1419,
+    "full_mask_cases": 31374,
+    "disconnected_plan_pairs": 1108,
+    "observed_scope_orders": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "max_absolute_error": 3.164135620181696e-15,
+    "checks": [
+      "target-factor expansion at every mask",
+      "correlated expectation",
+      "unrestricted component maximum",
+      "product-restricted component maximum"
+    ]
+  },
+  "exact_cubic_witness": {
+    "coefficient": "-1/4",
+    "even_parity_expectation": "1/2",
+    "odd_parity_expectation": "7/16",
+    "equal_marginals": "1/2",
+    "equal_pairs": "1/4"
+  },
+  "exact_redundancy_threshold_cases": 1000,
+  "correlated_cycle_laws": {
+    "permutations": 872,
+    "max_error": 1.3877787807814457e-16
+  },
+  "nonproduct_constraint_counterexample": "max[1/(2-z1)+1/(2-z2)] over {10,01}=3/2; sum of projection maxima=2"
+}

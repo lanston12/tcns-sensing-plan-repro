@@ -1,0 +1,14 @@
+{
+  "0.5": {
+    "contexts": 782,
+    "changed": 480,
+    "max_gap": 0.10952553672496956,
+    "mean_selected_regret": 0.0018226519176018248
+  },
+  "0.75": {
+    "contexts": 782,
+    "changed": 523,
+    "max_gap": 0.09848430488088349,
+    "mean_selected_regret": 0.002613669092191289
+  }
+}
